@@ -10,11 +10,11 @@ Spring Boot Initializr Setup
 Spring Security OAuth2
 ----------------------
 
-<dependency>
-  <groupId>org.springframework.security.oauth</groupId>
-  <artifactId>spring-security-oauth2</artifactId>
-  <version>2.0.7.RELEASE</version>
-</dependency>
+> <dependency>
+>  <groupId>org.springframework.security.oauth</groupId>
+>  <artifactId>spring-security-oauth2</artifactId>
+>  <version>2.0.7.RELEASE</version>
+> </dependency>
 
 Up and Running
 --------------
