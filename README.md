@@ -29,7 +29,7 @@ In your browser, visit the whitelabel UI provided by Spring OAuth:
 
 	http://localhost:9999/uaa/oauth/authorize?response_type=code&client_id=acme&redirect_uri=http://example.com
 
-The server is using Spring Boot default security settings, so the above will be protected using HTTP Basic authentication. With the above you are visiting the **authorization endpoint** and initiating an *authorizaton code token grant*.
+The server is using Spring Boot default security settings, so the above will be protected using HTTP Basic authentication (username=user, password=password). With the above you are visiting the **authorization endpoint** and initiating an *authorizaton code token grant*.
 
 If your grant access, you will be redirected to: 
 
