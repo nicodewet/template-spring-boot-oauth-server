@@ -45,3 +45,5 @@ You will get a response similar to this:
 	
 The UUID **ce9222cb-...** is our access token with an associated in-memory token store on our server. The refresh token **9291ad4d-...*** can be used to get a new access token when the current one expires.
 
+http://localhost:9999/uaa/oauth/authorize?response_type=code&client_id=client-with-registered-redirect&redirect_url=http://client_host?key=value&scope=read
+
