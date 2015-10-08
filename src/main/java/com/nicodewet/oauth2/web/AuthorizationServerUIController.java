@@ -12,7 +12,7 @@ import com.nicodewet.oauth2.domain.Credentials;
  */
 public class AuthorizationServerUIController {
 
-	@RequestMapping(value="/oauth/confirm_access", method=RequestMethod.GET)
+	@RequestMapping(value="/login", method=RequestMethod.GET)
     public String showLoginForm(final Credentials credentials) {
         return "credentials";
     }
